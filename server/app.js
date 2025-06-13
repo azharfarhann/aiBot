@@ -10,9 +10,9 @@ async function chatBot(userInput) {
   //   let fName = readline.question("Enter your Name:  ");
 
   //   let userInput = readline.question(`Hey ${fName} ! Whats up...`);
-  let userInput = readline.question("Enter your Query ");
+//   let userInput = readline.question("Enter your Query ");
 
-  console.log(userInput);
+//   console.log(userInput);
 
   // OpenAI API Call using Axios
 
@@ -51,6 +51,6 @@ while (true) {
 
   const reply = await chatBot(userInput);
   if (reply) {
-    console.log(`AI : ${reply}: \n`);
+    console.log(`Chatgpt : ${reply}: \n`);
   }
 }
