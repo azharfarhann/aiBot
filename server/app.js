@@ -51,6 +51,6 @@ while (true) {
 
   const reply = await chatBot(userInput);
   if (reply) {
-    console.log(`Chatgpt : ${reply}: \n`);
+    console.log(`Chatgpt : ${reply} \n`);
   }
 }
